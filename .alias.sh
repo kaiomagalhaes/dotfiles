@@ -11,16 +11,16 @@ alias gam="git commit --amend && gfo"
 alias gcm="git checkout master"
 
 # Projects
-alias goworkspace="cd /Users/kaiomagalhaes/media/work/workspace"
+alias goworkspace="cd $WORKSPACE_PATH"
 
 ## ADS
-alias goads="goworkspace&& cd agnostic-design-system"
+alias goads="goworkspace && cd agnostic-design-system"
 
 ## TM
-alias gotm="cd /Users/kaiomagalhaes/media/work/workspace/team-maker"
+alias gotm="cd $WORKSPACE_PATH/team-maker"
 
 ## Rolli
-alias gorolli="cd /Users/kaiomagalhaes/media/work/workspace/rolli"
+alias gorolli="cd $WORKSPACE_PATH/rolli"
 
 ## Roadrunner
 alias gorr="goworkspace && cd roadrunner"
