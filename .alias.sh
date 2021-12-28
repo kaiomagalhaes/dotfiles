@@ -1,5 +1,5 @@
 # Docker
- alias dsa="docker stop $(docker ps -a -q)"
+ alias dsa="docker kill $(docker ps -q)"
  alias dps="docker ps -a"
  alias dra="docker system prune -a --volumes"
 
@@ -25,6 +25,10 @@ alias gorolli="cd $WORKSPACE_PATH/rolli"
 ## Roadrunner
 alias gorr="goworkspace && cd roadrunner"
 
+# Dotfiles
+alias godot="goworkspace && cd dotfiles"
+alias showalias="cat $WORKSPACE_PATH/dotfiles/.alias.sh"
+alias editalias="vim $WORKSPACE_PATH/dotfiles/.alias.sh"
 
 # Slack
 alias ksk="pkill -x Slack"
