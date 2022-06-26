@@ -25,6 +25,9 @@ alias gorolli="cd $WORKSPACE_PATH/rolli"
 ## Roadrunner
 alias gorr="goworkspace && cd roadrunner"
 
+## Speedster
+alias goss="goworkspace && cd speedster-bot"
+
 # Dotfiles
 alias godot="goworkspace && cd dotfiles"
 alias showalias="cat $WORKSPACE_PATH/dotfiles/.alias.sh"
@@ -32,3 +35,7 @@ alias editalias="vim $WORKSPACE_PATH/dotfiles/.alias.sh"
 
 # Slack
 alias ksk="pkill -x Slack"
+
+## projects
+
+alias start="sh bin/dev"
