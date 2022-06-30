@@ -39,3 +39,7 @@ alias ksk="pkill -x Slack"
 ## projects
 
 alias start="sh bin/dev"
+
+## machine
+
+alias upgrade="brew update && brew upgrade && sudo softwareupdate -i -a && godot && git pull && source .alias.sh"
