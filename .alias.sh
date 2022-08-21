@@ -2,6 +2,9 @@
  alias dsa="docker kill $(docker ps -q)"
  alias dps="docker ps -a"
  alias dra="docker system prune -a --volumes"
+ alias dev="sh bin/dev"
+ alias sac="docker kill $(docker ps -q)"
+
 
 # Git
 alias gst="git status"
