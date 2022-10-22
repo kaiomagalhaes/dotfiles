@@ -28,13 +28,21 @@ alias gorolli="cd $WORKSPACE_PATH/rolli"
 ## Roadrunner
 alias gorr="goworkspace && cd roadrunner"
 
+edit_roadrunner_reverse_proxy() {
+  ssh root@dev.api.roadrunner.codelitt.dev ./update_roadrunner_reverse_proxy.sh $1
+}
+
+edit_notifications_reverse_proxy() {
+  ssh root@dev.api.roadrunner.codelitt.dev ./update_notifications_reverse_proxy.sh $1
+}
+
 ## Speedster
 alias goss="goworkspace && cd speedster-bot"
 
 # Dotfiles
 alias godot="goworkspace && cd dotfiles"
 alias showalias="cat $WORKSPACE_PATH/dotfiles/.alias.sh"
-alias editalias="vim $WORKSPACE_PATH/dotfiles/.alias.sh"
+alias editalias="vim $WORKSPACE_PATH/dotfiles/.alias.sh && godot && git pull && source .alias.sh"
 
 # Slack
 alias ksk="pkill -x Slack"
