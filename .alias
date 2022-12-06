@@ -29,11 +29,11 @@ alias gorolli="cd $WORKSPACE_PATH/rolli"
 alias gorr="goworkspace && cd roadrunner"
 
 edit_roadrunner_reverse_proxy() {
-  ssh root@dev.api.roadrunner.codelitt.dev ./update_roadrunner_reverse_proxy.sh $1
+  heroku config:set ROADRUNNER_API_URL=$1 -a prod-codelitt-proxy
 }
 
 edit_notifications_reverse_proxy() {
-  ssh root@dev.api.roadrunner.codelitt.dev ./update_notifications_reverse_proxy.sh $1
+  heroku config:set NOTIFICATIONS_API_URL=$1 -a prod-codelitt-proxy
 }
 
 ## Speedster
