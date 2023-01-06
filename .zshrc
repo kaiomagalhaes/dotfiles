@@ -100,5 +100,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export WORKSPACE_PATH="${HOME}/workspace"
-source "${HOME}/.alias"
+source $(pwd)/.alias
