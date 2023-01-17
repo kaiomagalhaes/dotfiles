@@ -1,6 +1,6 @@
 # environment variables
 
-WORKSPACE_PATH=$(cd & pwd)/workspace
+WORKSPACE_PATH=~/workspace
 
 # Docker
  alias dsa="docker kill $(docker ps -q)"
