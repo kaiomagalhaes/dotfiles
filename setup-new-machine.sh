@@ -2,6 +2,7 @@ upgrade
 
 xcode-select --install
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install docker
 brew install gh
 brew install slack
