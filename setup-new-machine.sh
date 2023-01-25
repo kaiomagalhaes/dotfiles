@@ -15,3 +15,4 @@ brew install roam-research
 brew install microsoft-teams
 brew tap heroku/brew && brew install heroku
 brew install --cask iterm2
+brew install --cask alfred
