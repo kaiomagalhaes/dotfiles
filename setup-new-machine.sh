@@ -14,3 +14,4 @@ brew install google-chrome
 brew install roam-research
 brew install microsoft-teams
 brew tap heroku/brew && brew install heroku
+brew install --cask iterm2
