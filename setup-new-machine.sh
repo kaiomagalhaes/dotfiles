@@ -1,9 +1,12 @@
-upgrade
-
 xcode-select --install
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install docker
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/codelitt/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/codelitt/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+brew install --cask 1password
 brew install gh
 brew install slack
 brew install todoist
@@ -17,3 +20,8 @@ brew tap heroku/brew && brew install heroku
 brew install --cask iterm2
 brew install --cask alfred
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+git config --global user.name "Kaio Magalhaes"
+git config --global user.email me@kaiomagalhaes.com 
+
+upgrade
