@@ -3,7 +3,7 @@
 WORKSPACE_PATH=~/workspace
 
 # Docker
- alias dsa="docker kill $(docker ps -q)"
+ alias dsa="docker ps -aq | xargs docker stop"
  alias dps="docker ps -a"
  alias dra="docker system prune -a --volumes"
  alias dev="sh bin/dev"
