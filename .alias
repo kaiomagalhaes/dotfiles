@@ -31,6 +31,8 @@ alias gorolli="cd $WORKSPACE_PATH/rolli"
 
 ## Roadrunner
 alias gorr="goworkspace && cd roadrunner"
+alias gonotifications="goworkspace && cd notifications"
+
 
 edit_roadrunner_reverse_proxy() {
   heroku config:set ROADRUNNER_API_URL=$1 -a prod-codelitt-proxy
