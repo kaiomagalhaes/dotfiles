@@ -8,6 +8,7 @@ WORKSPACE_PATH=~/workspace
  alias dra="docker system prune -a --volumes"
  alias dev="sh bin/dev"
  alias sac="docker kill $(docker ps -q)"
+ alias startdocker="open -a Docker"
 
 
 # Git
