@@ -6,6 +6,7 @@ echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/codelitt/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
 
 
+brew install --cask nordvpn
 brew install --cask 1password
 brew install gh
 brew install slack
