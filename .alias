@@ -59,6 +59,10 @@ alias ksk="pkill -x Slack"
 
 alias start="sh bin/dev"
 
+## writing
+
+alias pushwriting="git add . && git commit -m'today i wrote' && git push"
+
 ## machine
 
 alias upgrade="brew update && brew upgrade && sudo softwareupdate -i -a && godot && git pull && source .alias"
