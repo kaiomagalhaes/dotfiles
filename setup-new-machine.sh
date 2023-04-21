@@ -26,6 +26,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git config --global user.name "Kaio Magalhaes"
 git config --global user.email me@kaiomagalhaes.com 
 git config push.default current
+brew install nvm
 
 
 upgrade
