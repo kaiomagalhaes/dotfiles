@@ -21,11 +21,12 @@ alias gcm="git checkout master"
 # Projects
 alias goworkspace="cd $WORKSPACE_PATH"
 
-## ADS
-alias goads="goworkspace && cd agnostic-design-system"
-
 ## TM
 alias gotm="cd $WORKSPACE_PATH/team-maker"
+
+## backstage
+alias gobackstageapi="cd $WORKSPACE_PATH/backstage-api"
+alias gobackstageapp="cd $WORKSPACE_PATH/backstage-app"
 
 ## Rolli
 alias gorolli="cd $WORKSPACE_PATH/rolli"
