@@ -60,10 +60,16 @@ alias ksk="pkill -x Slack"
 
 alias start="sh bin/dev"
 
+### Donor Direct
+alias godd="goworkspace && cd DDC-StudioEnterprise && cd WebUIV2"
+alias gpldd="git pull origin ddc-ui-refresh/master --rebase"
+alias gcmdd="git checkout ddc-ui-refresh/master"
+alias cidd="godd && npm run lint:fix && npm run test && npm run lint:i18n && npm run lint:i18n:missing-translations && npm run i18n:fix && npm run build"
+
 ## writing
 
 alias pushwriting="git add . && git commit -m'today i wrote' && git push"
 
 ## machine
 
-alias upgrade="brew update && brew upgrade && sudo softwareupdate -i -a && godot && git pull && source .alias"
+alias upgrade="brew update && brew upgrade && brew autoremove && sudo softwareupdate -i -a && godot && git pull && source .alias"
