@@ -22,6 +22,7 @@ brew install --cask iterm2
 brew install --cask alfred
 brew install --cask postman
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install --cask cursor
 
 git config --global user.name "Kaio Magalhaes"
 git config --global user.email me@kaiomagalhaes.com 
